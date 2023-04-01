@@ -1,6 +1,8 @@
 # EEZYbotARM MK2 UI
 ReactJS UI to control an EEZYbotARM MK2 using a Raspberry PI Pico Wifi using NodeJS + TypeScript + Kaluma.
 
+![](/public/robot-demo.png)
+
 ## Resources
 - 3D print files:
   - https://www.thingiverse.com/thing:1454048
