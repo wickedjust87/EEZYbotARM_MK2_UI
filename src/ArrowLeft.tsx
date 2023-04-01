@@ -4,7 +4,9 @@ import ArrowIcon from './ArrowIcon';
 function ArrowLeft() {
   return (
     <button className="arrow left">
-      <ArrowIcon />
+      <div>
+        <ArrowIcon />
+      </div>
     </button>
   );
 }

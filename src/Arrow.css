@@ -1,11 +1,12 @@
 .arrow {
+  /* background-color: blue; */
   background-color: transparent;
   border: none;
   flex: 1;
   width: 75px;
 }
 
-.arrow:active {
+.arrow > div:active {
   -webkit-transform: translateY(2px);
   transform: translateY(2px);
 }
@@ -14,20 +15,16 @@
   outline:0;
 }
 
-.left {}
+.arrow:hover svg {
+  fill: blue;
+}
   
-.right {
+.right > div {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
-.right:active {
+.right > div:active {
   -webkit-transform: scaleX(-1) translateY(2px);
   transform: scaleX(-1) translateY(2px);
-}
-
-.arrow:hover svg {
-  fill: blue;
-  /* stroke: blue; */
-  /* stroke-width: 1px; */
 }

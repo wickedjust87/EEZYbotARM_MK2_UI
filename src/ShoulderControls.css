@@ -8,6 +8,10 @@
   transform: rotateX(10deg) rotateY(60deg);
 }
 
+.shoulderControls .right {
+  transform: translateY(15px);
+}
+
 .shoulderControls .right svg {
-  transform: rotateX(-10deg) rotateY(60deg) translateY(15px);
+  transform: rotateX(-10deg) rotateY(60deg);
 }
