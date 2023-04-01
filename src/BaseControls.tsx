@@ -1,12 +1,12 @@
 import ArrowLeft from "./ArrowLeft";
 import ArrowRight from "./ArrowRight";
-import styles from './Controls.module.css';
+import baseControlStyles from './BaseControls.module.css';
+import controlsStyles from './Controls.module.css';
 
 function BaseControls() {
   return (
-    <div>
-      Base
-      <div className={styles.controls}>
+    <div className={baseControlStyles.baseControls}>
+      <div className={controlsStyles.controls}>
         <ArrowLeft />
         <ArrowRight />
       </div>

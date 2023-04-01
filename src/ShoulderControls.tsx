@@ -1,12 +1,12 @@
 import ArrowLeft from "./ArrowLeft";
 import ArrowRight from "./ArrowRight";
-import styles from './Controls.module.css';
+import shoulderControlStyles from './ShoulderControls.module.css';
+import controlsStyles from './Controls.module.css';
 
 function ShoulderControls() {
   return (
-    <div>
-      Shoulder
-      <div className={styles.controls}>
+    <div className={shoulderControlStyles.shoulderControls}>
+      <div className={controlsStyles.controls}>
         <ArrowLeft />
         <ArrowRight />
       </div>

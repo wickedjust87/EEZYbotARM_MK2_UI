@@ -1,9 +1,11 @@
-import arrowRight from '/arrow-left.svg';
 import styles from './ArrowRight.module.css';
+import ArrowIcon from './ArrowIcon';
 
 function ArrowRight() {
   return (
-    <img className={styles.arrowRight} src={arrowRight} alt="arrow left" />
+    <div className={styles.arrowRight}>
+      <ArrowIcon />
+    </div>
   );
 }
 
