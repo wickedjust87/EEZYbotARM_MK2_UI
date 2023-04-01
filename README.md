@@ -24,3 +24,6 @@ ReactJS UI to control an EEZYbotARM MK2 using a Raspberry PI Pico Wifi using Nod
 
 ## Attributions
 Big thanks to Carlo Franciscone AKA [daGHIZmo](https://www.thingiverse.com/daghizmo/designs) for uploading designs to thingiverse for others to learn about robotics!
+- image taken from:
+  - https://www.instructables.com/EEZYbotARM-Mk2-3D-Printed-Robot/
+  - https://content.instructables.com/FJP/YO0H/J16OYX2O/FJPYO0HJ16OYX2O.jpg?auto=webp&frame=1&fit=bounds&md=00e256016a3446838f9883d7b75275ed
