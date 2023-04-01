@@ -1,5 +1,17 @@
 .grabberControls {
-  left: 420px;
+  left: 435px;
   position: absolute;
   top: 220px;
+}
+
+.grabberControls .controls {
+  display: block;
+}
+
+.grabberControls {
+  transform:  rotateZ(-40deg);
+}
+
+.grabberControls svg {
+  /* transform:  rotateX(60deg); */
 }

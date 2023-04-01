@@ -1,14 +1,14 @@
-import ArrowLeft from "./ArrowLeft";
-import ArrowRight from "./ArrowRight";
 import './GrabberControls.css';
 import './Controls.css';
+import ArrowRelease from "./ArrowRelease";
+import ArrowGrab from './ArrowGrab';
 
 function GrabberControls() {
   return (
     <div className="grabberControls">
       <div className="controls">
-        <ArrowLeft />
-        <ArrowRight />
+        <ArrowRelease />
+        <ArrowGrab />
       </div>
     </div>
   );
