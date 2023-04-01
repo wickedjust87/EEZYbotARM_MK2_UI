@@ -1,4 +1,3 @@
-//e.g server.js
 import express from 'express';
 import ViteExpress from 'vite-express';
 
