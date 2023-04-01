@@ -1,0 +1,18 @@
+.arrow {
+  flex: 1;
+  background-color: transparent;
+  width: 75px;
+}
+
+.left {}
+  
+.right {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.arrow:hover svg {
+  fill: blue;
+  /* stroke: blue; */
+  /* stroke-width: 1px; */
+}

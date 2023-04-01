@@ -1,12 +1,11 @@
-import arrowLeft from '/arrow-left.svg';
-import styles from './ArrowLeft.module.css';
+import styles from './Arrow.module.css';
 import ArrowIcon from './ArrowIcon';
 
 function ArrowLeft() {
   return (
-    <div className={styles.arrowLeft}>
+    <button className={`${styles.arrow} ${styles.left}`}>
       <ArrowIcon />
-    </div>
+    </button>
   );
 }
 

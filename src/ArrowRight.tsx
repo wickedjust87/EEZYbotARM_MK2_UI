@@ -1,11 +1,11 @@
-import styles from './ArrowRight.module.css';
+import styles from './Arrow.module.css';
 import ArrowIcon from './ArrowIcon';
 
 function ArrowRight() {
   return (
-    <div className={styles.arrowRight}>
+    <button className={`${styles.arrow} ${styles.right}`}>
       <ArrowIcon />
-    </div>
+    </button>
   );
 }
 
