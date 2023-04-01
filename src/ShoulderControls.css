@@ -1,0 +1,13 @@
+.shoulderControls {
+  left: 140px;
+  position: absolute;
+  top: 310px;
+}
+
+.shoulderControls svg {
+  transform: rotateX(10deg) rotateY(60deg);
+}
+
+.shoulderControls .right svg {
+  transform: rotateX(-10deg) rotateY(60deg) translateY(15px);
+}

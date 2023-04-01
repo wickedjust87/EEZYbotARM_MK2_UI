@@ -1,9 +1,9 @@
-import styles from './Arrow.module.css';
+import './Arrow.css';
 import ArrowIcon from './ArrowIcon';
 
 function ArrowRight() {
   return (
-    <button className={`${styles.arrow} ${styles.right}`}>
+    <button className="arrow right">
       <ArrowIcon />
     </button>
   );

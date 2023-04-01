@@ -1,12 +1,12 @@
 import ArrowLeft from "./ArrowLeft";
 import ArrowRight from "./ArrowRight";
-import elbowControlStyles from './ElbowControls.module.css';
-import controlsStyles from './Controls.module.css';
+import './ElbowControls.css';
+import './Controls.css';
 
 function ElbowControls() {
   return (
-    <div className={elbowControlStyles.elbowControls}>
-      <div className={controlsStyles.controls}>
+    <div className="elbowControls">
+      <div className="controls">
         <ArrowLeft />
         <ArrowRight />
       </div>
