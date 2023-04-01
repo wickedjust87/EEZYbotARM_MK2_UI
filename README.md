@@ -14,3 +14,6 @@ ReactJS UI to control an EEZYbotARM MK2 using a Raspberry PI Pico Wifi using Nod
   - https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf
   - https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico
   - https://projects.raspberrypi.org/en/projects/introduction-to-the-pico/12
+
+## Attributions
+Big thanks to Carlo Franciscone AKA [daGHIZmo](https://www.thingiverse.com/daghizmo/designs) for uploading designs to thingiverse for others to learn about robotics!
