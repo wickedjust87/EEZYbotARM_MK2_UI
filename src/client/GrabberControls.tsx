@@ -1,14 +1,13 @@
 import './GrabberControls.css';
 import './Controls.css';
-import ArrowRelease from "./ArrowRelease";
-import ArrowGrab from './ArrowGrab';
+import Arrow from './Arrow';
 
 function GrabberControls() {
   return (
     <div className="grabberControls">
       <div className="controls">
-        <ArrowRelease />
-        <ArrowGrab />
+        <Arrow direction='release' onClick={() => {}} />
+        <Arrow direction='grab' onClick={() => {}} />
       </div>
     </div>
   );

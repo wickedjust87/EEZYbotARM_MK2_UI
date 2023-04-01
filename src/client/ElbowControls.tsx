@@ -1,5 +1,4 @@
-import ArrowLeft from "./ArrowLeft";
-import ArrowRight from "./ArrowRight";
+import Arrow from "./Arrow";
 import './ElbowControls.css';
 import './Controls.css';
 
@@ -7,8 +6,8 @@ function ElbowControls() {
   return (
     <div className="elbowControls">
       <div className="controls">
-        <ArrowLeft />
-        <ArrowRight />
+        <Arrow direction="left" onClick={() => {}} />
+        <Arrow direction="right" onClick={() => {}} />
       </div>
     </div>
   );
