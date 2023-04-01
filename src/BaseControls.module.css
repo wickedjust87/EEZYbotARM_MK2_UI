@@ -1,5 +1,9 @@
 .baseControls {
   left: 200px;
   position: absolute;
-  top: 425px;
+  top: 420px;
+}
+
+.baseControls svg {
+  transform: rotateX(60deg);
 }
