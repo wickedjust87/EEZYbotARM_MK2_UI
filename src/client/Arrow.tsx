@@ -1,12 +1,8 @@
 import './Arrow.css';
 import ArrowIcon from './ArrowIcon';
+import { DirectionType } from './types';
 
 type OnClickType = () => void;
-type DirectionType = 
-    'left' 
-  | 'right' 
-  | 'grab' 
-  | 'release';
 
 type Props = {
   direction: DirectionType,

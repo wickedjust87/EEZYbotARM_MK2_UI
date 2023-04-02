@@ -1,0 +1,63 @@
+.controls {
+  display: flex;
+}
+
+.base {
+  left: 200px;
+  position: absolute;
+  top: 380px;
+}
+
+.base svg {
+  transform: rotateX(60deg);
+}
+
+.elbow {
+  left: 140px;
+  position: absolute;
+  top: 105px;
+}
+
+.elbow svg {
+  transform: rotateX(10deg) rotateY(60deg);
+}
+
+.elbow .right {
+  transform: translateY(15px);
+}
+
+.elbow .right svg {
+  transform: rotateX(-10deg) rotateY(60deg);
+}
+
+.grabber {
+  left: 435px;
+  position: absolute;
+  top: 220px;
+}
+
+.grabber .controls {
+  display: block;
+}
+
+.grabber {
+  transform:  rotateZ(-40deg);
+}
+
+.shoulder {
+  left: 140px;
+  position: absolute;
+  top: 310px;
+}
+
+.shoulder svg {
+  transform: rotateX(10deg) rotateY(60deg);
+}
+
+.shoulder .right {
+  transform: translateY(15px);
+}
+
+.shoulder .right svg {
+  transform: rotateX(-10deg) rotateY(60deg);
+}
